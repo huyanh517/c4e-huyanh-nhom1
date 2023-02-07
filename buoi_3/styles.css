@@ -1,3 +1,41 @@
+* {
+    box-sizing: border-box;
+    color: #37352F;
+}
+
+.app {
+    background-color: #DFEEF0;
+    padding: 12px;
+}
+
+h1, h2 {
+    color: #6A8D8F;
+    font-weight: bolder;
+}
+
 h1 {
-    color: red;
+    font-size: 34px;
+}
+
+.infomations {
+    border-bottom: 4px dashed #6A8D8F;
+    padding-bottom: 20px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #6A8D8F;
+}
+
+.details {
+    border-bottom: 4px dashed #6A8D8F;
+}
+
+.contact {
+    margin-top: 20px;
 }
