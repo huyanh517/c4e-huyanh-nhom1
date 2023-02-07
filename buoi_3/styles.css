@@ -8,6 +8,10 @@
     padding: 12px;
 }
 
+.content {
+    width: 80%;
+}
+
 h1, h2 {
     color: #6A8D8F;
     font-weight: bolder;
@@ -38,4 +42,32 @@ h1 {
 
 .contact {
     margin-top: 20px;
+}
+
+.star-box {
+    position: relative;
+}
+
+.star-container {
+    position: absolute;
+    top: -17%;
+    display: inline-block;
+    padding-left: 12px;
+    list-style: none;
+}
+
+.star-container li {
+    display: inline-block;
+}
+
+.star-container-snd {
+    position: absolute;
+    top: 45%;
+    display: inline-block;
+    padding-left: 18px;
+    list-style: none;
+}
+
+.star-container-snd li {
+    display: inline-block;
 }
